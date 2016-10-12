@@ -2,4 +2,14 @@ p {
   color: green;
   font-size:20 px;
   text-align: center;
+
+}
+#first-paragraph{
+  font-family:helvetica, san serif;
+  font-size: 16 px;
+  color: blue;
+}
+hidden-links{
+  text-decoration: none;
+  color: #536482;
 }
