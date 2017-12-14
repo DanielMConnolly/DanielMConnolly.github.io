@@ -12,6 +12,9 @@ body {
 .home{
 
 }
+#fall2016{
+  display: none;
+}
 #spring2017{
   display: none;
 }
