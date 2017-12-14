@@ -24,7 +24,9 @@ body {
 #home{
 
 }
-
+.school img{
+  width: 50%;
+}
 ul{
   float: left;
 }
