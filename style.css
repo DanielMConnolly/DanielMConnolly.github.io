@@ -1,15 +1,18 @@
-p {
-  color: green;
-  font-size:20 px;
-  text-align: center;
+body{
+margin: 0;
+background: #222;
+font-family: "Oxygen";
+font-weight: 300;
 
 }
-#first-paragraph{
-  font-family:helvetica, san serif;
-  font-size: 16 px;
-  color: blue;
+.container{
+  width: 80%
+  margin: 0 auto;
 }
-hidden-links{
-  text-decoration: none;
-  color: #536482;
+.row{
+  padding-right: 20px;
+}
+
+img{
+  max-width: 100px;
 }
