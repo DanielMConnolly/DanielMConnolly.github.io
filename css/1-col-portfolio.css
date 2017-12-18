@@ -24,8 +24,16 @@ body {
 #home{
 
 }
+.school p{
+  padding: 20px;
+
+}
 .school img{
   width: 50%;
+  margin-left: 20px;
+}
+.school h1{
+  padding-bottom: 30px;
 }
 ul{
   float: left;
