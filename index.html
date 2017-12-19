@@ -42,12 +42,12 @@
             <div class="dropdown" aria-labelledby="navbarDropdown">
               <ul class="dropdown-menu">
                 <li>
-                  <a class="dropdown-item tablinks" onclick="switchTabs(event, 'fall2017')" href="#">Spring 2017
+                  <a class="dropdown-item tablinks" onclick="switchTabs(event, 'fall2017')" href="#">Fall 2017
                   </a>
                 </li>
                 <div class="dropdown-divider"></div>
                 <li>
-                  <a class="dropdown-item tablinks" onclick="switchTabs(event, 'spring2017')" href="#">Fall 2017
+                  <a class="dropdown-item tablinks" onclick="switchTabs(event, 'spring2017')" href="#">Spring 2017
 
                   </a>
                 </li>
@@ -92,7 +92,8 @@
         </div>
         <div class="col-md-5">
           <h3>Computer Organization</h3>
-          <p>I learned MIPS assembly language, and was tasked with building a basic calculator. That project was one of the hardest things I have ever done, but I learned a lot from it. We also learned about processor datapaths and how processors access memory. </p>
+          <p>I learned MIPS assembly language, and was tasked with building a basic calculator. That project was one of the hardest things I have ever done, but I learned a lot from it. We also learned about processor datapaths and how processors access
+            memory. </p>
         </div>
       </div>
       <!-- /.row -->
@@ -124,7 +125,8 @@
         </div>
         <div class="col-md-5">
           <h3>Physics 1</h3>
-          <p>This course covered basic mechanics, including kinematics, rotation, and harmonic motion. I find physics to be interesting when I am able to understand the underlying concepts, but too often it becomes a matter of using forumulas which have no meaning to you. </p>
+          <p>This course covered basic mechanics, including kinematics, rotation, and harmonic motion. I find physics to be interesting when I am able to understand the underlying concepts, but too often it becomes a matter of using forumulas which have
+            no meaning to you. </p>
         </div>
       </div>
       <!-- /.row -->
@@ -141,7 +143,8 @@
         </div>
         <div class="col-md-5">
           <h3>Asian Civilization II</h3>
-          <p>Asian Civilization II covers Asian History from the Ming and Mughal eras to the present day. The rise of imperial Japan is especially interesting to me. I found it amazing that a country could transform so rapidly from an isolated feudalistic state to an enormous empire.</p>
+          <p>Asian Civilization II covers Asian History from the Ming and Mughal eras to the present day. The rise of imperial Japan is especially interesting to me. I found it amazing that a country could transform so rapidly from an isolated feudalistic
+            state to an enormous empire.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -155,7 +158,7 @@
         </div>
         <div class="col-md-5">
           <h3>Francais Intermediare</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
+          <p>Dans cette classe, nous avons appris la grammaire et le vocabulaire intéressant. j'aurai préféré plus parler, mais cétait une bonne classe néanmoins.  </p>
           <a class="btn btn-primary" href="#">View Project</a>
         </div>
       </div>
@@ -202,8 +205,7 @@
         </div>
         <div class="col-md-5">
           <h3>Digital Systems</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>This class introduced me to combinational and sequential circuit design, including a bit of verilog. My favorite part was learning how flip-flop gates, the building blocks of memory, are designed.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -217,8 +219,7 @@
         </div>
         <div class="col-md-5">
           <h3>Intro to Computer Science Part 2</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>We coded in java, and learned about simple data structures and their applications. There was also a semester-long project where we worked in a group of four people and designed a fractal-generator.</p>
         </div>
       </div>
       <!-- /.row -->
@@ -232,8 +233,8 @@
         </div>
         <div class="col-md-5">
           <h3>Discrete Mathematics</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>While we did discuss some basic mathematical concepts including basic set theory and logic, this class mostly focused on different configurations of parallel processors and the runtime of simple operations on them. The professor, Russ Miller,
+            does research in this area, which explains why it was so heavily emphasized. </p>
         </div>
       </div>
       <!-- /.row -->
@@ -344,7 +345,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        <p class="m-0 text-center text-white">Powered by Bootstrap, last edited December 2017</p>
       </div>
       <!-- /.container -->
     </footer>
@@ -353,31 +354,28 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script>
-  function switchTabs(evt, cityName) {
-    console.log("The " + cityName + " button has been pressed")
-    var i, tabcontent, tablinks;
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-      tabcontent[i].style.display = "none";
-    }
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-      tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    var x = document.getElementById(cityName);
+    function switchTabs(evt, cityName) {
+      console.log("The " + cityName + " button has been pressed")
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      var x = document.getElementById(cityName);
 
-    if(cityName=="home"){
+      if (cityName == "home") {
         x.style.display = "flex";
-    }
-    else{
+      } else {
         x.style.display = "inline";
+      }
+
+      console.log("YOp")
+      evt.currentTarget.className += " active";
     }
-
-    console.log("YOp")
-    evt.currentTarget.className += " active";
-  }
-
-
   </script>
 
 </body>

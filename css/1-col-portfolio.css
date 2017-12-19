@@ -50,6 +50,10 @@ ul{
 }
 .coursebutton:hover ul{
   display:block;
+
+}
+.dropdown:hover{
+  display: block;
 }
 @media (min-width: 992px) {
   body {
