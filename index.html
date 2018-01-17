@@ -51,10 +51,18 @@
 
                   </a>
                 </li>
+
                 <div class="dropdown-divider"></div>
                 <li>
                   <a class="dropdown-item tablinks" onclick="switchTabs(event, 'fall2016')" href="#">Fall 2016</a>
                 </li>
+              </li>
+              <div class="dropdown-divider"></div>
+              <li>
+                <a class="dropdown-item tablinks" onclick="switchTabs(event, 'winterCourses')" href="#">Winter Courses
+
+                </a>
+              </li>
               </ul>
             </div>
 
@@ -65,7 +73,7 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+            <a class="nav-link tablinks" onclick="switchTabs(event, 'contactform')" href="#">Contact</a>
           </li>
         </ul>
       </div>
@@ -76,6 +84,77 @@
   <div id="bodyclass">
 
     <!-- Page Content -->
+    <div class="container tabcontent school" id="winterCourses">
+
+      <!-- Page Heading -->
+      <h1 class="pageContent Winter2017">Winter and Summer Courses
+      <!--  <small>Secondary Text</small> -->
+    </h1>
+
+      <!-- Project One -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="CalcIII.gif" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Calculus III</h3>
+          <h4> January 2017 </h4>
+          <p>I took this course the winter of my Freshman year through UB. It was very intense, we learned everything from spherical coordinates to Green's theorem in 3 weeks.</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+      <!-- Project Two -->
+      <div class="row">
+        <div class="col-md-7">
+          <a href="#">
+            <img class="img-fluid rounded mb-3 mb-md-0" src="linearAlgebra.png" alt="">
+          </a>
+        </div>
+        <div class="col-md-5">
+          <h3>Linear Algebra</h3>
+          <h4> June 2017 </h4>
+          <p>I took this course between my freshman and sophomore year at UAlbany. I really like linear algebra, because you learn everything from the ground up, and I was able to understand most things without having to take many mathematical leaps of faith.</p>
+        </div>
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+
+      </div>
+      <!-- /.row -->
+
+      <hr>
+
+
+      <!-- Pagination -->
+
+    </div>
+    <!--Home Page -->
+    <div class="row tabcontent" id="home">
+      <div class="sidecolumn col-lg-3 container" id="sidecolumn">
+        <img src="DanielConnolly.jpg" class="image">
+        <p> <br>Email: dcdconnolly10@gmail.com <br> Phone: 518-258-5595
+          <br>
+          <a href="https://www.linkedin.com/in/daniel-connolly-bb8a68110/"> Visit my LinkedIn
+          </a>
+          <br>
+          <a href="Resume.pdf"> Download my Resume</a>
+        </p>
+      </div>
+      <div class="col-lg-9 rightside container">
+        <p>
+          I am a computer science major at the University at Buffalo, currently in my sophomore year. I have lived in Bethlehem, a town just outside of Albany, NY, for almost my entire life. I aspire to be a software engineer after I recieve my bachelor's degree.
+          In the meantime, I look forward to pursuing as many internships as I can. I am interested in several other fields as well, including economics and physics, and I hope to spend some time learning and even working in those fields as well. In the
+          future, I hope to start a business, using my skills in the field of technology as well as my interests in economics and start-up culture.
+        </p>
+      </div>
+    </div>
     <div class="container tabcontent school" id="fall2017">
 
       <!-- Page Heading -->
@@ -158,7 +237,7 @@
         </div>
         <div class="col-md-5">
           <h3>Francais Intermediare</h3>
-          <p>Dans cette classe, nous avons appris la grammaire et le vocabulaire intéressant. j'aurai préféré plus parler, mais cétait une bonne classe néanmoins.  </p>
+          <p>Dans cette classe, nous avons appris la grammaire et le vocabulaire intéressant. j'aurai préféré plus parler, mais cétait une bonne classe néanmoins. </p>
           <a class="btn btn-primary" href="#">View Project</a>
         </div>
       </div>
@@ -170,26 +249,7 @@
       <!-- Pagination -->
 
     </div>
-    <!--Home Page -->
-    <div class="row tabcontent" id="home">
-      <div class="sidecolumn col-lg-3 container" id="sidecolumn">
-        <img src="DanielConnolly.jpg" class="image">
-        <p> <br>Email: dcdconnolly10@gmail.com <br> Phone: 518-258-5595
-          <br>
-          <a href="https://www.linkedin.com/in/daniel-connolly-bb8a68110/"> Visit my LinkedIn
-          </a>
-          <br>
-          <a href="Resume.pdf"> Download my Resume</a>
-        </p>
-      </div>
-      <div class="col-lg-9 rightside container">
-        <p>
-          I am a computer science major at the University at Buffalo, currently in my sophomore year. I have lived in Bethlehem, a town just outside of Albany, NY, for almost my entire life. I aspire to be a software engineer after I recieve my bachelor's degree.
-          In the meantime, I look forward to pursuing as many internships as I can. I am interested in several other fields as well, including economics and physics, and I hope to spend some time learning and even working in those fields as well. In the
-          future, I hope to start a business, using my skills in the field of technology as well as my interests in economics and start-up culture.
-        </p>
-      </div>
-    </div>
+
     <!-- /fall2017r -->
     <div class="container tabcontent school" id="spring2017">
       <!-- Page Heading -->
@@ -249,8 +309,7 @@
         </div>
         <div class="col-md-5">
           <h3>Intro to Industrial Engineering</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>This was a one-credit class that met weekly. Almost every professor in the department came in to speak about their research. One area of research that especially interested me was using mathematics to determine  how to use drones and trucks to deliver packages more efficiently. </p>
         </div>
       </div>
       <!-- /.row -->
@@ -265,8 +324,7 @@
         </div>
         <div class="col-md-5">
           <h3>MacroEconomics</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>This was a basic econ class, fairly straightforward. I learned a lot about how currency actually works. I understood concepts like inflation and unemployment to some degree, but after taking this class, I have a much better understanding about how those types of thinks work and relate. I want to take more Econ, but I'm not sure time will permit.  </p>
         </div>
       </div>
       <!-- /.row -->
@@ -286,8 +344,7 @@
         </div>
         <div class="col-md-5">
           <h3>How the Internet Works</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium veniam exercitationem expedita laborum at voluptate. Labore, voluptates totam at aut nemo deserunt rem magni pariatur quos perspiciatis atque eveniet unde.</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>This class gave me a very good idea of how the internet operates. I learned a little bit of everything, from Telnet to HTML and CSS</p>
         </div>
       </div>
       <!-- /.row -->
@@ -301,7 +358,7 @@
         </div>
         <div class="col-md-5">
           <h3>Intro to Computer Science Part 1</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, odit velit cumque vero doloremque repellendus distinctio maiores rem expedita a nam vitae modi quidem similique ducimus! Velit, esse totam tempore.</p>
+          <p>A very basic course on CS taught in Java. We learned the basic structure of a programming language, a few data-structures, and some fundamentals of object-oriented programming.</p>
           <a class="btn btn-primary" href="#">View Project</a>
         </div>
       </div>
@@ -316,8 +373,8 @@
         </div>
         <div class="col-md-5">
           <h3>Calculus II</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis, temporibus, dolores, at, praesentium ut unde repudiandae voluptatum sit ab debitis suscipit fugiat natus velit excepturi amet commodi deleniti alias possimus!</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>I learned everything in this class very thoroughly. I mastered advanced integration techniques, and learned how to test for convergence and divergence in a series. In my opinion, this is the least important calculus.</p>
+
         </div>
       </div>
       <!-- /.row -->
@@ -332,15 +389,25 @@
         </div>
         <div class="col-md-5">
           <h3>Intro to American Politics</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, quidem, consectetur, officia rem officiis illum aliquam perspiciatis aspernatur quod modi hic nemo qui soluta aut eius fugit quam in suscipit?</p>
-          <a class="btn btn-primary" href="#">View Project</a>
+          <p>Ran through the basics of how the American Government works. I found I already knew most of the material, but it proved to be an interesting course nevertheless.</p>
+
         </div>
       </div>
       <!-- /.row -->
-
-
     </div>
+<div class="contactform tabcontent container" id="contactform">
+  <form>
+    <div>
+<label for="name" >Name </label>
+ <input type="text" id="name" name="firstname" placeholder="Your name..">
+</div>
+<div>
+ <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+</div>
+</form>
 
+</div>
 
     <!-- Footer -->
     <footer class="py-5 bg-dark">
@@ -369,7 +436,11 @@
 
       if (cityName == "home") {
         x.style.display = "flex";
-      } else {
+      }
+      else if(cityName=="contactform"){
+          x.style.display = "block";
+      }
+       else {
         x.style.display = "inline";
       }
 
