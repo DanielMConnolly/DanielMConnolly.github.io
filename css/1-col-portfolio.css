@@ -30,6 +30,9 @@ body {
 #contactform{
   display: none;
 }
+#studyabroad{
+  display: none;
+}
 .school p{
   padding: 20px;
 
