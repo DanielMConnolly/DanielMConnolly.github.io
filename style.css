@@ -1,0 +1,18 @@
+body{
+margin: 0;
+background: #222;
+font-family: "Oxygen";
+font-weight: 300;
+
+}
+.container{
+  width: 80%
+  margin: 0 auto;
+}
+.row{
+  padding-right: 20px;
+}
+
+img{
+  max-width: 100px;
+}

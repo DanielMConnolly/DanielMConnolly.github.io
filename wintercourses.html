@@ -1,0 +1,19 @@
+---
+layout: default
+title: Winter and Summer Courses
+---
+<h1 class="text-center"> Winter and Summer Courses </h1>
+<div class="container">
+{% for class in site.winter_courses %}
+<div class="row">
+<div class="col-md-6">
+<img class="img-responsive" style="width: 300px; height=auto;" src='{{class.image}}'/>
+</div>
+<div class="col-md-6">
+<h3> {{class.name}} </h3>
+      {{class.content}}
+</div>
+</div>
+<hr/>
+{% endfor %}
+</div>

@@ -1,0 +1,18 @@
+- name: Home
+  link: /
+- name: My Semester Abroad
+  link: /semesterabroad.html
+- name: Contact
+  link: /contact.html
+- name: My Classes
+  sublinks:
+    - name: Fall 2016
+      link: /fall2016.html
+    - name: Spring 2017
+      link: /spring2017.html
+    - name: Fall 2017
+      link: /fall2017.html
+    - name: Fall 2018
+      link: /fall2018.html
+    - name: Winter/Summer courses
+      link: /wintercourses.html

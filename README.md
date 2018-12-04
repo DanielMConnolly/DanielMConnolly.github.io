@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap - Resume](https://startbootstrap.com/template-overviews/resume/)
 
 [Resume](https://startbootstrap.com/template-overviews/resume/) is a resume and CV theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). This theme features a fixed sidebar with content sections to build a simple, yet elegant resume.
@@ -15,14 +16,40 @@
 [![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-resume.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-resume)
 [![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume)
 [![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-resume/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-resume?type=dev)
+=======
+# [Start Bootstrap - 1 Col Portfolio](https://startbootstrap.com/template-overviews/1-col-portfolio/)
+
+[1 Col Portfolio](https://startbootstrap.com/template-overviews/1-col-portfolio/) is a single column portfolio layout template for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
+
+## Preview
+
+[![1 Col Portfolio Preview](https://startbootstrap.com/assets/img/templates/1-col-portfolio.jpg)](https://blackrockdigital.github.io/startbootstrap-1-col-portfolio/)
+
+**[View Live Preview](https://blackrockdigital.github.io/startbootstrap-1-col-portfolio/)**
+
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/BlackrockDigital/startbootstrap-1-col-portfolio/master/LICENSE)
+[![npm version](https://img.shields.io/npm/v/startbootstrap-1-col-portfolio.svg)](https://www.npmjs.com/package/startbootstrap-1-col-portfolio)
+[![Build Status](https://travis-ci.org/BlackrockDigital/startbootstrap-1-col-portfolio.svg?branch=master)](https://travis-ci.org/BlackrockDigital/startbootstrap-1-col-portfolio)
+[![dependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-1-col-portfolio/status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-1-col-portfolio)
+[![devDependencies Status](https://david-dm.org/BlackrockDigital/startbootstrap-1-col-portfolio/dev-status.svg)](https://david-dm.org/BlackrockDigital/startbootstrap-1-col-portfolio?type=dev)
+>>>>>>> 32c960e1979f98c5c7e2db623dddda7443b69ef9
 
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
+<<<<<<< HEAD
 * [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/resume/)
 * Install via npm: `npm i startbootstrap-resume`
 * Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-resume.git`
 * [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-resume)
+=======
+* [Download the latest release on Start Bootstrap](https://startbootstrap.com/template-overviews/1-col-portfolio/)
+* Install via npm: `npm i startbootstrap-1-col-portfolio`
+* Clone the repo: `git clone https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio.git`
+* [Fork, Clone, or Download on GitHub](https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio)
+>>>>>>> 32c960e1979f98c5c7e2db623dddda7443b69ef9
 
 ## Usage
 
@@ -34,6 +61,7 @@ After downloading, simply edit the HTML and CSS files included with the template
 
 After installation, run `npm install` and then run `gulp dev` which will open up a preview of the template in your default browser, watch for changes to core template files, and live reload the browser when changes are saved. You can view the `gulpfile.js` to see which tasks are included with the dev environment.
 
+<<<<<<< HEAD
 #### Gulp Tasks
 
 - `gulp` the default task that builds everything
@@ -53,6 +81,15 @@ Start Bootstrap has a public Slack channel which is a great place to ask questio
 ## Bugs and Issues
 
 Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-resume/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/resume/).
+=======
+## Bugs and Issues
+
+Have a bug or an issue with this template? [Open a new issue](https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://startbootstrap.com/template-overviews/1-col-portfolio/).
+
+## Custom Builds
+
+You can hire Start Bootstrap to create a custom build of any template, or create something from scratch using Bootstrap. For more information, visit the **[custom design services page](https://startbootstrap.com/bootstrap-design-services/)**.
+>>>>>>> 32c960e1979f98c5c7e2db623dddda7443b69ef9
 
 ## About
 
@@ -71,4 +108,8 @@ Start Bootstrap is based on the [Bootstrap](http://getbootstrap.com/) framework 
 
 ## Copyright and License
 
+<<<<<<< HEAD
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+=======
+Copyright 2013-2017 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-1-col-portfolio/blob/gh-pages/LICENSE) license.
+>>>>>>> 32c960e1979f98c5c7e2db623dddda7443b69ef9

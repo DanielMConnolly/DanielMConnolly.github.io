@@ -1,0 +1,28 @@
+---
+layout: default
+title: Semester in Amsterdam
+---
+<ul class="gallery-items">
+
+{% for image in site.images %}
+  <li class="gallery-item">
+    <div class="gallery-contents">
+      <div class="thumbnail gallery-trigger"><img src='{{image.link}}' alt="" /></div>
+      <div class="title">{{image.name}}</div>
+    </div>
+    <div class="gallery-expander">
+      <div class="gallery-expander-contents">
+        <div class="gallery-trigger-close close">x</div>
+        <div class="col">
+          <div class="image"><img src="{{image.link}}" alt="" /></div>
+        </div>
+        <div class="col">
+          <div class="title">{{image.name}}</div>
+          <div class="contents"> {{image.content}} </div>
+        </div>
+      </div>
+    </div>
+  </li>
+{% endfor %}
+
+</ul>
